@@ -24,59 +24,46 @@ header {
     justify-content: space-between;
 }
 
-.menu {
-    align-items: center;
-    justify-content: space-between;
-    justify-self: center;
-    background: rgba(37, 24, 197, 0.5); 
-}
-
-.menu nav {
+header .contenedor4 {
     width: 100%;
-    align-items: center;
-    justify-content: space-between;    
-}
-
-.menu nav ul {
-    width: 100%;
-    overflow: hidden;
-    list-style: none;
-    display: inline-block;
-}
-
-.menu nav ul .logo {
+    height: 70px;
+    padding: 0 20px;
     margin: auto;
-
-}
-
-.menu nav ul li {
-    float: right;
-}
-
-.menu nav ul li a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 15px 20px;
-    color: #343434;
-    justify-content: space-between;
-}
-
-.menu nav ul li a:hover {
     background: #343434;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-/*-----------------------BODY---------------------------*/
-/*######################################################*/
-
-main {
-    width: 90%;
+header .contenedor4 .icon {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-main .presentacion {
-    width: 100%;
-    margin: auto;
+header .contenedor4 .icon img{
+    margin: 15px;
+}
+
+header .contenedor4 .Titulo{
+    color: aliceblue;
+}
+
+header .contenedor4 .icon input {
     display: inline-block;
-    text-align: center;
-    justify-content: center;
+    padding: 0 20px;
+    align-items: center;
+}
+
+
+header .contenedor4 a {
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+header .contenedor4 a:hover {
+    border-bottom: #fff;
 }
