@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*-----------------------HEADER-------------------------*/
+/*######################################################*/
+
+header {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    background: url(img/montanas-en-lago-al-atardecer_3840x2160_xtrafondos.com.jpg);
+    background-position: center;
+    background-size: auto;
+    justify-content: space-between;
+}
+
+.menu {
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+    background: rgba(37, 24, 197, 0.5); 
+}
+
+.menu nav {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.menu nav ul {
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+    display: inline-block;
+}
+
+.menu nav ul .logo {
+    margin: auto;
+
+}
+
+.menu nav ul li {
+    float: right;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #343434;
+    justify-content: space-between;
+}
+
+.menu nav ul li a:hover {
+    background: #343434;
+    color: #fff;
+}
+
+/*-----------------------BODY---------------------------*/
+/*######################################################*/
+
+main {
+    width: 90%;
+}
+
+main .presentacion {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
