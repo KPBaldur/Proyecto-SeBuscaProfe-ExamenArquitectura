@@ -25,7 +25,7 @@ header {
     box-sizing: border-box;
 }
 
-header .contenedor4 {
+header .menu-header {
     width: 100%;
     height: 70px;
     padding: 0px 20px;
@@ -38,36 +38,36 @@ header .contenedor4 {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-header .contenedor4 .icon {
+header .menu-header .icon {
     display: flex;
     padding: 0 20px;
     align-items: center;
     justify-content: space-between;
 }
 
-header .contenedor4 .icon img{
+header .menu-header .icon img{
     margin: 15px;
 }
 
-header .contenedor4 .Titulo{
+header .menu-header .Titulo{
     color: aliceblue;
 }
 
-header .contenedor4 .icon input {
+header .menu-header .icon input {
     display: inline-block;
     padding: 0 20px;
     align-items: center;
 }
 
 
-header .contenedor4 a {
+header .menu-header a {
     color: #fff;
     padding: 20px 20px;
     text-decoration: none;
     box-sizing: border-box;
 }
 
-header .contenedor4 a:hover {
+header .menu-header a:hover {
     border: 2px solid  #fff;
 }
 
@@ -84,3 +84,4 @@ main .presentacion {
     text-align: center;
     box-sizing: border-box;
 }
+
